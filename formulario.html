@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+</head>
+<style>
+    h1{
+     font-family:'Lucida Sans Regular';
+     background-color: aqua;
+    }
+    h2{
+     font-family:'Lucida Sans Regular';
+     background-color: aqua;
+    }
+    p{
+     font-family:'Lucida Sans Regular';
+    }
+  </style></h1>
+<body>
+    <a href="index.html">Inicio</a>
+    <h1>FORMULARIO:</h1>
+    <form action="/action_page.php">
+        <fieldset>
+        Nombre de usuario:<br>
+        <input type="text" name="username" maxlength="10" autofocus autocomplete="on" required
+        ><br>
+        Contraseña:<br>
+        <input type="password" name="psw" maxlength="10" required><br>
+        Nombre:<br>
+        <input type="text" name="firstname"maxlength="15"autocomplete="on" required><br>
+        Apellidos:<br>
+        <input type="text" name="lastname"maxlength="15" required><br><br>
+        <input type="radio" name="gender" value="male" checked  required> Hombre<br>
+        <input type="radio" name="gender" value="female" required> Mujer<br>
+        <input type="radio" name="gender" value="other" required> Otro<br>
+        Selecciona tu color favorito:
+        <input type="color" name="favcolor" required><br><br>
+        Tu cumpleaños:
+            <input type="date" name="birthday" max="99" min="0" required><br>
+           <br>
+            ¿Cuando te registraste? (fecha y hora):
+            <input type="datetime-local" name="daytime" required><br><br>
+            Correo electrónico:
+            <input type="email" name="email" required><br><br>
+            Selecciona un fichero: <input type="file" name="myFile" ><br><br>
+            Mes y año:
+            <input type="month" name="monthYear" required><br>
+            <br>
+            ¿De qué trata Harry Potter?
+            <br>
+            <label for="name">de fantasmas</label><br>
+            <input id="name"type="checkbox" name="name" value="de fantasmas"><br>
+            <label for="name">de zombies</label><br>
+            <input id="name"type="checkbox" name="name" value="de zombies"><br>
+            <label for="name">sobre cuentos de hadas</label><br>
+            <input id="name"type="checkbox" name="name" value=">sobre cuentos de hadasr"><br>
+            <label for="name">sobre magia</label><br>
+            <input id="name"type="checkbox" name="name" value=">"<br>
+            
+            <br><br>
+            <input type="reset" name="name">
+            <input type="submit" name="name">
+    
+</body>
+</html>
